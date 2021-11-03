@@ -97,7 +97,7 @@
 	 color: white;
 }
 /* End of footer.html */
-#header{
+#nav-content,#header{
 	background-color:rgb(245, 150, 245);
 }
 #teamimg{
@@ -167,26 +167,30 @@
 				id="nav-content">
 				<ul class="list-reset lg:flex justify-end flex-1 items-center">
 					<li class="mr-3">
-						<a class="inline-block py-2 px-4 toggleColour text-white font-bold no-underline"
+						<a class="inline-block py-2 px-4 text-white font-bold no-underline"
 							href="#">Home</a>
 					</li>
 					<li class="mr-3">
-						<a class="inline-block toggleColour text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+						<a class="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
 							href="#about">About</a>
 					</li>
 
 					</li>
-					<li class="mr-3">
-						<a class="inline-block toggleColour text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+				<!-----	<li class="mr-3">
+						<a class="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
 							href="#gallery">Gallery</a>
-					</li>
+				--->	</li>
 					<li class="mr-3">
-						<a class="inline-block toggleColour text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+						<a class="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
 							href="#team">Team</a>
 					</li>
 					<li class="mr-3">
-						<a class="inline-block toggleColour text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+						<a class="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
 							href="events">Events</a>
+					</li>
+					<li class="mr-3">
+						<a class="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+							href="#contact">Contact</a>
 					</li>
 				</ul>
 
@@ -312,7 +316,7 @@
 	</section>
 
 
-	<!-- Gallery Section -->
+	<!-- Gallery Section
 	<section class="bg-white border-b py-8" id="gallery">
 
 		<div class="container mx-auto flex flex-wrap pt-4 pb-12">
@@ -356,7 +360,7 @@
 		</div>
 	</section>
 
-
+-->
 
 
 	<section class="bg-white border-b py-8" id="team">
@@ -461,13 +465,14 @@
 
 
 	<!--Footer-->
+	<section id="contact">
 	<footer class="bg-black bgfoot">
 		<div class="container-fluid">
 			<div class="row justify-content-center">
 			  <div class="col-10">
 				<div class="row foot-heading">
 				  <div class="col">
-					<h1 class="font-bold">Contact</h1>
+					<h1 class="font-bold">Contact</h1><br></br>
 				  </div>
 				</div>
 				<div class="row foot-address"  style="justify-content: center;display:flex;">
@@ -482,13 +487,15 @@
 					<p>Maharaja Surajmal Institute of Technology<br>
 					  C-4, Lal Sain Mandir Marg, Janak Puri, New Delhi, Delhi 110058</p>
 					<h4>Email</h4>
-					<p><a href="mailto:ieee@msit.in">ieee@msit.in</a></p>
-
+					<p><a href="mailto:ieee@msit.in">msitwie@gmail.com</a></p>
+					<a href="paras.jain121.pj@gmail.com" class="fa fa-google"></a>
+					<a href="https://www.linkedin.com/company/wie-msit" class="fa fa-linkedin"></a>
 				  </div>
 				</div>
 			  </div>
 			</div>
 		  </div>
+		  <br></br>
 		  <div class="container-fluid foot-credits">
 			<div class="col">
 			  <p>Copyright &copy; <script>
@@ -503,7 +510,7 @@
 
 
 	</footer>
-
+</section>
 
 	<!-- jQuery if you need it
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
